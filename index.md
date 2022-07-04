@@ -1,7 +1,7 @@
 {
   "Version": "1.0.2",
   "ReleaseNotes": "TESTE UPDATE ONLINE",
-  "UrlUpdate": "https://buckzin.github.io/",
+  "UrlUpdate": "https://raw.githubusercontent.com/buckzin/buckzin.github.io/main/index.md",
   "Sms": "",
   "EmailFeedback": "stach@yorkanda.net",
   "UrlContato": "https://t.me/y0rkzin",
