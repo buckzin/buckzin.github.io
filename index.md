@@ -1,37 +1,111 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/buckzin/buckzin.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/buckzin/buckzin.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+{
+  "Version": "1.0.2",
+  "ReleaseNotes": "TESTE UPDATE ONLINE",
+  "UrlUpdate": "https://buckzin.github.io/",
+  "Sms": "",
+  "EmailFeedback": "stach@yorkanda.net",
+  "UrlContato": "https://t.me/y0rkzin",
+  "UrlTermos": "",
+  "Udp": [
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7400"
+    },
+    {
+      "Porta": "7500"
+    },
+    {
+      "Porta": "7600"
+    },
+    {
+      "Porta": "7700"
+    }
+  ],
+  "Servers": [
+    {
+      "Name": "PREMIUM 01 | FREE",
+      "TYPE": "free",
+      "FLAG": "br.png",
+      "ServerIP": "brazil.stachnetwork.cf",
+      "CheckUser": "http://brasil.stachnetwork.cf:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "PREMIUM 02 | PLUS",
+      "TYPE": "plus",
+      "FLAG": "br.png",
+      "ServerIP": "brazil.stachnetwork.cf",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "VIVO PROXY 01",
+      "FLAG": "vivo",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO TLS 02",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
+      "TlsIP": "104.18.7.80",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM PROXY 01",
+      "FLAG": "tim",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "CLARO SSL 04",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "m.waze.com",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
+    },
+    {
+      "Name": "CLARO SSL 05",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "web.whatsapp.com",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
+    },
+    {
+      "Name": "OI TLS 02",
+      "FLAG": "oi",
+      "Payload": "GET ssl://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection[crlf]Upgrade: websocket[crlf]Upgrade: WebSocket[crlf][crlf]Connection: Upgrade[crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    }
+  ]
+}
